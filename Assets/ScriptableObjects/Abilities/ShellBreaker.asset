@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf99b0f3b029f834bb47a4d4aafe4da4, type: 3}
+  m_Name: ShellBreaker
+  m_EditorClassIdentifier: 
+  abilityName: Shell Breaker
+  damage: 12
+  comfortCost: 20
+  description: Smashes through the enemy's defenses, causing a set amount of  damage.
+    Punching through a chunk of armor isn't exactly comfortable...
+  healTargetEffects: 0
+  healSelfEffects: 0
+  ignoreStats: 1
+  burn: 0
+  decreaseComfort: 1
+  comfortDamage: 5
+  bleed: 0
+  berserk: 0
+  regeneration: 0
+  absorb: 0
+  HealEnemiesComfort: 0
+  abilityAudio: {fileID: 8300000, guid: 1fa69c799e70b054cbfc2ab8ebff211b, type: 3}

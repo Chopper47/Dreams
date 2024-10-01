@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6412800107555180959
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6705916897029177338}
+  - component: {fileID: 4817697954395202094}
+  - component: {fileID: 8793720538705538025}
+  m_Layer: 0
+  m_Name: TurnManager
+  m_TagString: TurnManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6705916897029177338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6412800107555180959}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4817697954395202094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6412800107555180959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da204f8d4ad1cfb4d9fefd0e713cd3b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: 0
+  characterTurnList: []
+  currentCharacter: {fileID: 0}
+  buttonCanvas: {fileID: 0}
+  button1: {fileID: 0}
+  button2: {fileID: 0}
+  button3: {fileID: 0}
+  button4: {fileID: 0}
+  button5: {fileID: 0}
+  button1Text: {fileID: 0}
+  button2Text: {fileID: 0}
+  button3Text: {fileID: 0}
+  button4Text: {fileID: 0}
+  button5Text: {fileID: 0}
+  mainCharacterPrefab: {fileID: 0}
+  mainCharacterCameraFollow: {fileID: 0}
+  allyLeftPrefab: {fileID: 0}
+  allyRightPrefab: {fileID: 0}
+  allyCenterPosition: {fileID: 0}
+  allyLeftPosition: {fileID: 0}
+  allyRightPosition: {fileID: 0}
+  enemyOverworld: {fileID: 0}
+  enemyCenterPrefab: {fileID: 1493029963160330918, guid: 035079e8fdb8a0240a90cf3f4973a3f3,
+    type: 3}
+  enemyLeftPrefab: {fileID: 1493029963160330918, guid: 035079e8fdb8a0240a90cf3f4973a3f3,
+    type: 3}
+  enemyRightPrefab: {fileID: 1493029963160330918, guid: 035079e8fdb8a0240a90cf3f4973a3f3,
+    type: 3}
+  enemyCenterPosition: {fileID: 0}
+  enemyRightPosition: {fileID: 0}
+  enemyLeftPosition: {fileID: 0}
+  turnCounter: 0
+  numberOfCharacters: 0
+  pointer: {fileID: 0}
+  nextCharacterPointer: {fileID: 0}
+  nextCharacter: {fileID: 0}
+  virtualCamera: {fileID: 0}
+  isBoss: 0
+--- !u!114 &8793720538705538025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6412800107555180959}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba64d0a2d1939ed4caa5be808b0a5466, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetLayer:
+    serializedVersion: 2
+    m_Bits: 768
+  hoverTargetGameObject: {fileID: 0}
+  targetGameObject: {fileID: 0}
+  currentCharacter: {fileID: 0}
+  abilityToActivate: 0

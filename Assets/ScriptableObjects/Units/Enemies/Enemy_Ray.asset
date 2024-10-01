@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0e00d9af8f01794aaabc01c1441a53f, type: 3}
+  m_Name: Enemy_Ray
+  m_EditorClassIdentifier: 
+  level: 10
+  unitName: Flying Ray
+  speed: 5
+  attack: 5
+  defense: 5
+  hp: 150
+  maxHp: 150
+  comfort: 100
+  maxComfort: 100
+  ability1: {fileID: 11400000, guid: 84b45aa4d4f8094498549ca4745c7635, type: 2}
+  ability2: {fileID: 11400000, guid: 84b45aa4d4f8094498549ca4745c7635, type: 2}
+  ability3: {fileID: 11400000, guid: 0fa34e5d7e3da8846a2cf258961fdd70, type: 2}
+  ability4: {fileID: 11400000, guid: 84b45aa4d4f8094498549ca4745c7635, type: 2}
+  isEnemy: 1

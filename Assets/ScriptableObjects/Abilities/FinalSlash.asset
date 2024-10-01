@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf99b0f3b029f834bb47a4d4aafe4da4, type: 3}
+  m_Name: FinalSlash
+  m_EditorClassIdentifier: 
+  abilityName: Final Slash
+  damage: 30
+  comfortCost: 90
+  description: An attack surpassing the user's limits. Depletes the user of their
+    strength and mental fortitude. Cures the user's status effects
+  healTargetEffects: 0
+  healSelfEffects: 1
+  ignoreStats: 0
+  burn: 0
+  decreaseComfort: 0
+  comfortDamage: 0
+  bleed: 0
+  berserk: 0
+  regeneration: 0
+  absorb: 0
+  HealEnemiesComfort: 0
+  abilityAudio: {fileID: 8300000, guid: c10101e784ba8a747a3b8e0e53534e5a, type: 3}
